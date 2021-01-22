@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,500&family=Playfair+Display:wght@400;700&display=swap');
+
+.article-title-font {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.article-paragraph-font {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+.card-title-font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-info-font {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.ingredients-title-font {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.ingredients-subheading-font {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.ingredients-font, .link-font {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
