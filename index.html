@@ -9,12 +9,6 @@
     <link rel="stylesheet" href="./assets/css/fonts.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <style>
-        @media screen and (max-width: 370px) {
-            .icons {
-                display: none;
-            }
-        }
-
         @media screen and (max-width: 1024px) {
             .card-title-font {
                 font-size: 0.5rem;
@@ -51,7 +45,7 @@
             <div class="mt-4 lg:mt-6">
                 <img class="rounded-xl" src="./assets/img/photo1.png" alt="cheesecake">
             </div>
-            <div class="mt-2 flex flex-col-reverse lg:flex-row lg:space-y-0 lg:space-x-12 lg:mt-8">
+            <div class="mt-2 flex flex-col-reverse lg:flex-row lg:space-y-0 lg:space-x-32 lg:mt-8">
                 <div class="mt-6 w-full lg:mt-0">
                     <div>
                         <div class="space-y-4">
@@ -64,6 +58,23 @@
                                     <input type="checkbox">
                                     <p class="-mt-1 ml-2">1 and 1/2 cups (150g) <strong>graham cracker crumbs</strong>
                                         (about 10 full sheet graham crackers)</p>
+                                </div>
+                                <div class="ingredients-font flex text-sm leading-6">
+                                    <input type="checkbox">
+                                    <p class="-mt-1 ml-2">5 Tablespoons (70g) <strong>unsalted butter</strong>, melted
+                                    </p>
+                                </div>
+                                <div class="ingredients-font flex text-sm leading-6">
+                                    <input type="checkbox">
+                                    <p class="-mt-1 ml-2">1/4 cup (50g) <strong>granulated sugar</strong></p>
+                                </div>
+                            </div>
+                            <span class="block text-base leading-4 ingredients-subheading-font italic">Cheesecake
+                            </span>
+                            <div class="space-y-3">
+                                <div class="ingredients-font flex text-sm leading-6">
+                                    <input type="checkbox">
+                                    <p class="-mt-1 ml-2">Four 8-ounce blocks (904g) full-fat <strong>cream cheese</strong>, softened to room temperature</p>
                                 </div>
                                 <div class="ingredients-font flex text-sm">
                                     <input type="checkbox">
@@ -192,17 +203,17 @@
                     </div>
                 </div>
 
-                <div class="w-full lg:p-12 lg:shadow-lg lg:rounded-xl lg:w-72 lg:h-80">
+                <div class="w-full lg:p-12 lg:shadow-lg lg:rounded-xl lg:w-72 lg:h-72">
                     <div class="space-y-1 lg:space-y-6">
-                        <div class="flex items-center space-x-2 lg:-mt-3">
+                        <div class="flex items-center space-x-2 lg:-mt-2 xl:-mt-6">
                             <div>
-                                <img class="h-auto lg:h-10" src="./assets/icon/dining.svg" alt="dining-logo">
+                                <img class="h-auto lg:h-7" src="./assets/icon/dining.svg" alt="dining-logo">
                             </div>
                             <div>
                                 <div class="text-gray-600 card-title-font lg:text-xs">
                                     YIELDS
                                 </div>
-                                <div style="color: #F2994A;" class="block card-info-font">
+                                <div style="color: #F2994A;" class="block whitespace-nowrap card-info-font">
                                     12 servings
                                 </div>
                             </div>
@@ -210,7 +221,7 @@
                         <div class="grid grid-cols-3 gap-1 lg:grid-cols-1 lg:space-y-6">
                             <div class="flex items-center space-x-2">
                                 <div>
-                                    <img class="h-auto lg:h-10" src="./assets/icon/clock.svg" alt="dining-logo">
+                                    <img class="h-auto lg:h-7" src="./assets/icon/clock.svg" alt="dining-logo">
                                 </div>
                                 <div>
                                     <div class="text-gray-600 whitespace-nowrap card-title-font lg:text-xs">
@@ -223,7 +234,7 @@
                             </div>
                             <div class="flex items-center space-x-2">
                                 <div>
-                                    <img class="h-auto lg:h-10" src="./assets/icon/clock.svg" alt="dining-logo">
+                                    <img class="h-auto lg:h-7" src="./assets/icon/clock.svg" alt="dining-logo">
                                 </div>
                                 <div>
                                     <div class="text-gray-600 whitespace-nowrap card-title-font lg:text-xs">
@@ -236,7 +247,7 @@
                             </div>
                             <div class="flex items-center space-x-2">
                                 <div>
-                                    <img class="h-auto lg:h-10" src="./assets/icon/clock.svg" alt="dining-logo">
+                                    <img class="h-auto lg:h-7" src="./assets/icon/clock.svg" alt="dining-logo">
                                 </div>
                                 <div>
                                     <div class="text-gray-600 whitespace-nowrap card-title-font lg:text-xs">
@@ -251,8 +262,8 @@
                     </div>
                 </div>
             </div>
-            <div class="mt-12 pb-16 break-all"><span class="link-font text-gray-400">
-                    Source: <a href="https://sallysbakingaddiction.com/classic-cheesecake/" class="text-blue-500"
+            <div class="mt-12 pb-16 break-all"><span class="link-font text-xs italic text-gray-300">
+                    Source: <a href="https://sallysbakingaddiction.com/classic-cheesecake/" class="whitespace-nowrap underline text-blue-400"
                         target="_blank" rel="noopener noreferrer">Sally's Baking Addiction</a>
                 </span>
             </div>
@@ -260,7 +271,7 @@
         <div class="absolute inset-x-0 bottom-3">
             <span class="inline" id="footer">
                 <a href="https://github.com/Noobsiecoder" target="_blank" rel="noopener noreferrer"
-                    class="flex justify-center footer-font text-gray-400">NoobsieCoder@DevChallenges.io</a>
+                    class="flex justify-center footer-font text-xs lg:text-sm text-gray-300">NoobsieCoder@DevChallenges.io</a>
             </span>
         </div>
     </div>
