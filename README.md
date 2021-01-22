@@ -18,7 +18,7 @@ git clone "https://github.com/Noobsiecoder/recipe-blog-page.git"
 ```
 
 ## Demo link
-[Interior Consultant Page demo link](https://noobsiecoder.github.io/recipe-blog-page/)
+[Recipe Blog Page demo link](https://noobsiecoder.github.io/recipe-blog-page/)
 
 ## Credits
 Resource from [DevChallenges](https://devchallenges.io/)
